@@ -23,9 +23,12 @@ body{
   height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   position: relative;
+  overflow-x: hidden;
+  gap: 1rem;
 }
 
 div.overlay{
@@ -41,7 +44,7 @@ div.overlay{
   height: 95%;
   width: 90%;
   background-color: hsl(var(  --neutral-off-white ));
-  /* padding: 20px 90px; */
+  padding-top: 1rem;
   overflow-x: hidden;
 }
 
